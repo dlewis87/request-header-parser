@@ -24,16 +24,5 @@ module.exports = function (app) {
 		res.json(createHeader(ip, lang, software));
 		
 	});
-	
-	
-/*
-	
-		
-	app.get('/:date',function (req, res) {
-		var date = req.params.date;
-		res.setHeader('Content-Type', 'application/json');
-		res.json(MakeDate(date));
-	});	
-*/	
 
 };
